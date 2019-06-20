@@ -1,0 +1,85 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner{
+background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/403a0271.jpg");
+background-size: cover;
+color: white;
+padding: 200px 0;
+}
+
+.container{
+  margin-left: 20px;
+  margin-right: 100px;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0px,0px,2px,grey
+}
+.button-ship{
+  display: flex;
+}
+.button-ship a{
+  padding: 20px;
+  color: white;
+  background-color: #064acb;
+  border-radius: 8px;
+}
+.container-price{
+  background-color: white;
+}
+h2{
+  text-align: center;
+}
+
+.card-price{
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+}
+
+.card{
+  width: 400px;
+  height: 700px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  padding: 10px;
+  font-family:'Montserrat', sans-serif;
+  border: 1px solid rgb(230,230,230);
+  box-shadow: 0 0 5px rgb(230,230,230);
+
+}
+.card img{
+  margin-top:20px;
+  height: 400px;
+  width: 400px;
+
+}
+.footer{
+  background-color:#064acb;
+  width: 100%;
+  padding: 1.25em .7em 3em;
+  text-align:center;
+  margin-top: 15px;
+}
